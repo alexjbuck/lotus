@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Travis CI Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)
 
 _s
@@ -43,3 +44,7 @@ Then, update the stylesheet header in `style.css` and the links in `footer.php` 
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+=======
+# lotus
+Custom Wordpress theme for dhavalayoga.com
+>>>>>>> f11419d21d0e97a4b047bc928271256b505945ab
