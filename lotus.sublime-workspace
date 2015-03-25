@@ -1,0 +1,666 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"esc_at",
+				"esc_attr_e"
+			],
+			[
+				"site",
+				"site_description"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"dim",
+				"dimension"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"ssyphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssthtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"package ",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/js"
+	],
+	"file_history":
+	[
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/functions.php",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/js/navigation.js",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/page.php",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/header.php",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/footer.php",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/style.css",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/inc/template-tags.php",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-content/themes/lotus/inc/extras.php",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/alexanderbuck/Projects/mampWebServer/htdocs/wp-config.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/functions.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/single.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/sidebar.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/searchform.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/inc/template-tags.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/header.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/index.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/page.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/search.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/sftp-config.json",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/footer.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/style.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/header.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/theme-compat/header.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/js/heartbeat.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/http.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/network/site-themes.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/comment.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class-wp-editor.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/mu-plugins/gd-system-plugin/limit-login-attempts/limit-login-attempts-ca_ES.mo",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/css/login.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/mu-plugins/gd-system-plugin/limit-login-attempts/limit-login-attempts-nb_NO.mo",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/mu-plugins/gd-system-plugin/limit-login-attempts/limit-login-attempts-sv_SE.mo",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/mu-plugins/gd-system-plugin/limit-login-attempts/limit-login-attempts-el_GR.mo",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/link.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-list-comments-endpoint.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/about.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/404.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/general-template.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/klean/inc/template-tags.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/content-page.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/post-template.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/image.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/comment-template.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/inc/extras.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/content-aside.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus/content.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/class.jetpack-xmlrpc-server.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class-phpass.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/photon.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/plugins.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/SimplePie/Item.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/SimplePie/Source.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/link-template.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class-simplepie.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/load-scripts.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-admin/load-styles.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/plugin.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/footer.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/front-page.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/page.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/includes/front-header-image-section.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/style.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/header.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/SketchBoard/functions/sketch-enqueue.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/includes/convac-custom-css.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/footer.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/style.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/includes/convac-custom-css.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/includes/front-header-image-section.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/widgets.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/temp_header.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/nav-menu-template.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/page.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite-child/functions.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/home.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/category.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/404.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/js/jquery/ui/tooltip.min.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/query.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/comment.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/Wordpress/sftp-config.json",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/klean/footer.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/klean/style.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/gd-config.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/klean/assets/skins/main.css",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-settings.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/klean/404.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class-wp-customize-manager.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/twentyfourteen/inc/featured-content.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/theme-tools/featured-content.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/omnisearch/omnisearch-core.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/quick-setup/quick-setup.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/SketchBoard/includes/ot-loader.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/SketchBoard/includes/includes/ot-settings-api.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/js/jquery/ui/effect.min.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/js/jquery/jquery.color.min.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class-wp.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/class.wp-scripts.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/locale.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-includes/capabilities.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/twentyfourteen/js/slider.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/SketchBoard/includes/assets/js/ot-admin.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/js/waypoints.min.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/js/superfish.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/convac-lite/js/cbpAnimatedHeader.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/wp101-video-tutorial/wp101-video-tutorial.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/quick-setup/classes/class.gd-quicksetup-upgrader.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/videopress/videopress.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/videopress/shortcode.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/site-icon/jetpack-site-icon.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/shortcodes/js/slideshow-shortcode.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/shortcodes/js/jmpress.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/shortcodes/slideshow.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/related-posts/jetpack-related-posts.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/post-by-email/post-by-email.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/holiday-snow/snowstorm.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/js/nova-drag-drop.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/js/many-items.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/comics/comics.js",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/testimonial.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/nova.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-post-types/comics.php",
+		"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/plugins/jetpack/modules/custom-css/custom-css/js/use-codemirror.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/alexanderbuck/Projects/mampWebServer/htdocs",
+			"/Users/alexanderbuck/Projects/mampWebServer/html",
+			"/Users/alexanderbuck/Projects/DhavalaYoga/html/wp-content/themes/lotus",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"padding",
+			"ul",
+			"body",
+			"color: ",
+			"color: blue",
+			"a ",
+			"font-color",
+			"p a",
+			"p ",
+			":hover",
+			"font-family",
+			".entry-content",
+			"article",
+			"toggled",
+			"li ",
+			"container",
+			"button",
+			"justify",
+			"min-width: 3",
+			"line-height: 0",
+			"line-height:0",
+			"img",
+			"rem",
+			"h1",
+			"footer",
+			"body",
+			"html",
+			"footer",
+			"article",
+			".aligncentercontent",
+			"text-align: center",
+			"text-align:center",
+			"shadow",
+			"@media",
+			"margin",
+			"a ",
+			":hover",
+			"1em",
+			".box",
+			"font-size",
+			"h1",
+			"h2",
+			"21",
+			"19",
+			"@media",
+			".site-branding",
+			".site-title",
+			"allura",
+			"et-googleFonts",
+			"font",
+			"site-info",
+			"footer",
+			"site-header",
+			"header",
+			"entry-title",
+			".site-footer",
+			".site-header",
+			"sidebar",
+			"content",
+			"img",
+			"assistive-text",
+			"6.0",
+			".assistive-text",
+			".align",
+			"#main",
+			"separate_comments",
+			"nav-below",
+			"nav-above",
+			"the_posts_navigation",
+			"the_post_navigation",
+			"convac_lite_theme_stylesheet",
+			"convac-custom-css",
+			"convact-custom-css",
+			"header-top-wrap",
+			"header-image",
+			"Skt-header-image",
+			"front-header-image-section",
+			"header-static-img.jpg",
+			"background",
+			"skenav",
+			"fa-search",
+			"#logo {",
+			"top-nav-menu",
+			"1005",
+			"container",
+			"skt-mob-menu",
+			"sktmenu-toggle",
+			"sktmenu-togle",
+			"menu",
+			"top-nav-menu",
+			"container_inner",
+			"body",
+			"html",
+			"main",
+			"clearfix",
+			"header-top-wrap",
+			"grav-clone-a",
+			"comment",
+			"leave a reply",
+			"page",
+			"comments",
+			"class=\"AboutMeTitle\"",
+			"AboutMe",
+			"div",
+			"function",
+			"site-title",
+			"a:",
+			"a ",
+			"a,",
+			".a ",
+			"a",
+			"wp_loaded",
+			"blog_id =",
+			" blog_id =",
+			"blog_id =",
+			"blog_id=",
+			"global $blog_id =",
+			"global $blog_id",
+			"blog_id",
+			"wp_set_wpdb_vars"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 140.0
+	},
+	"project": "lotus.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"syl",
+				"style.css"
+			],
+			[
+				"header.php",
+				"html/wp-content/themes/lotus/header.php"
+			],
+			[
+				"style.c",
+				"html/wp-content/themes/lotus/style.css"
+			],
+			[
+				"version.php",
+				"html/wp-includes/version.php"
+			],
+			[
+				"default-constants.php",
+				"html/wp-includes/default-constants.php"
+			],
+			[
+				"wp-settin",
+				"html/wp-settings.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"lotus_wid",
+				"lotus_widgets_init"
+			],
+			[
+				"the_archive_",
+				"the_archive_description"
+			],
+			[
+				"the_archive",
+				"the_archive_title"
+			],
+			[
+				"wp_link_pages",
+				"wp_link_pages"
+			],
+			[
+				"wp_list_comments",
+				"wp_list_comments"
+			],
+			[
+				"lotus_e",
+				"lotus_entry_footer"
+			],
+			[
+				"get_comments",
+				"get_comments"
+			],
+			[
+				"comments_template",
+				"comments_template"
+			],
+			[
+				"lotus_entry_footer",
+				"lotus_entry_footer"
+			],
+			[
+				"get_permalink",
+				"get_permalink"
+			],
+			[
+				"enhanced_image_navigation",
+				"lotus_enhanced_image_navigation"
+			],
+			[
+				"add_filter",
+				"add_filter"
+			],
+			[
+				"convac_lite_theme_stylesheet",
+				"convac_lite_theme_stylesheet"
+			],
+			[
+				"wp_head",
+				"wp_head"
+			],
+			[
+				"wp_nav_menu",
+				"wp_nav_menu"
+			],
+			[
+				"_e ",
+				"_enable"
+			],
+			[
+				"is_front_page",
+				"is_front_page"
+			],
+			[
+				"dynamic_side",
+				"dynamic_sidebar"
+			],
+			[
+				"comment_status",
+				"wp_set_comment_status"
+			],
+			[
+				"comments_open",
+				"comments_open"
+			],
+			[
+				"site-info",
+				"site-info"
+			],
+			[
+				"wp_loaded",
+				"wp_loaded"
+			],
+			[
+				"library_init",
+				"library_init"
+			],
+			[
+				"hooks",
+				"hooks"
+			],
+			[
+				"hook",
+				"hook"
+			],
+			[
+				"init",
+				"init"
+			],
+			[
+				"get_stylesheet",
+				"get_stylesheet"
+			],
+			[
+				"setup_theme",
+				"setup_theme"
+			],
+			[
+				"do_action",
+				"do_action"
+			],
+			[
+				"",
+				"11.2"
+			],
+			[
+				"absint",
+				"absint"
+			],
+			[
+				"get_current_blog_id",
+				"get_current_blog_id"
+			],
+			[
+				"blog_id",
+				"blog_id"
+			],
+			[
+				"wp_load_translations_early",
+				"wp_load_translations_early"
+			],
+			[
+				"file_exists",
+				"file_exists"
+			],
+			[
+				"wp_maintenance",
+				"wp_maintenance"
+			],
+			[
+				"wp_set_wpdb_vars",
+				"wp_set_wpdb_vars"
+			]
+		],
+		"width": 611.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
