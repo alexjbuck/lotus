@@ -1,9 +1,9 @@
 /*
 Theme Name: lotus
-Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: Alex Buck
 Author URI: http://underscores.me/
 Description: Description
+GitHub Theme URI: https://github.com/alexjbuck/lotus
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -424,7 +424,14 @@ big {
 	font-size: 4em;
 }
 
+footer .social-info {
+	text-align: center;
+	font-size: 2em;
+}
 
+footer .site-info {
+	font-size: 0.5em;
+}
 
 /*--------------------------------------------------------------
 3.0 Elements
@@ -640,14 +647,27 @@ nav a {
 
 
 /* Small menu. */
-.menu-toggle {
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:focus {
+	font-size: 1em;
 	display: none;
 }
 
 @media screen and (max-width: 600px) {
-	.menu-toggle {
-		height: 3em;
+	.menu-toggle,
+	.menu-toggle:hover,
+	.menu-toggle:focus {
+		float: left;
 		display: block;
+		border: none;
+		background: none;
+		box-shadow: none;
+		padding: 0;
+		height: 2em;
+		width: 2em;
+		margin-left: 0em;
+		z-index: top
 	}
 
 	.main-navigation.toggled ul {
@@ -660,6 +680,10 @@ nav a {
 
 	.main-navigation ul li {
 		display: block;
+	}
+
+	.menu-main-nav-container {
+		margin: 0 2em 0 2em;
 	}
 }
 
@@ -841,9 +865,9 @@ nav a {
 	display: block;
 }
 
-.hentry {
+/*.hentry {
 	margin: 0 0 1.5em;
-}
+}*/
 
 .byline,
 .updated:not(.published) {
@@ -1011,7 +1035,7 @@ body {
 #content {
 	margin: 0 0 0 0;
 	text-align: center;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 }
 
 #primary {
@@ -1020,21 +1044,21 @@ body {
 	width: 100%;
 }
 
-body.home article.hentry {
+body.home article {
 	max-width: 100%;
 	padding: 0;
 	box-shadow: 0 0 0;
 	background: none;
 }
-body.home article div.entry-content {
+body.home  .entry-content {
 	text-align: center;
 }
 
-article.hentry {
+article {
 	max-width:46em;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 3em 1em 3em;
+	padding: 0 3em 1rem 3em;
 	background-color: #fff;
 	box-shadow: 0 0 7px;
 }
@@ -1083,12 +1107,16 @@ article div.entry-content {
 }
 
 footer.site-footer {
+	font-size: 1em;
 	position: absolute;
 	bottom: 0;
 	clear: both;
 	width: 100%;
 	text-align: right;
-	height: 2em;
-	font-size: .5em;
+	height: 4em;
 	padding-right:2em;
+	background-image: -webkit-linear-gradient(top, transparent, white);
+	background-image:    -moz-linear-gradient(top, transparent, white);
+	background-image:      -o-linear-gradient(top, transparent, white);
+	background-image:         linear-gradient(top, transparent, white);
 }

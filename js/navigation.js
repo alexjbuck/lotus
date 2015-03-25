@@ -16,8 +16,12 @@
 		return;
 	}
 
-	menu = container.getElementsByTagName( 'ul' )[0];
+	icon = document.getElementById( 'menu-toggle' );
+	if ( ! icon ) {
+		return;
+	}
 
+	menu = container.getElementsByTagName( 'ul' )[0];
 	// Hide menu toggle button if menu is empty and return early.
 	if ( 'undefined' === typeof menu ) {
 		button.style.display = 'none';
@@ -32,10 +36,12 @@
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
+			icon.className = icon.className.replace( ' fa-chevron-down', ' fa-chevron-right')
 		} else {
 			container.className += ' toggled';
 			button.setAttribute( 'aria-expanded', 'true' );
 			menu.setAttribute( 'aria-expanded', 'true' );
+			icon.className = icon.className.replace( ' fa-chevron-right', ' fa-chevron-down')
 		}
 	};
 } )();

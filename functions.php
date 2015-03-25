@@ -125,12 +125,13 @@ add_action( 'wp_enqueue_scripts', 'lotus_scripts' );
  * Enqueue fonts.
  */
 function load_fonts() {
-	wp_register_style('et-googleFonts-Droid-Sans', 'http://fonts.googleapis.com/css?family=Droid+Sans');
-    wp_enqueue_style( 'et-googleFonts-Droid-Sans');
-    wp_register_style('et-googleFonts-Allura', 'http://fonts.googleapis.com/css?family=Allura');
-    wp_enqueue_style( 'et-googleFonts-Allura');
+	// wp_register_style('googleFonts-Droid-Sans', 'http://fonts.googleapis.com/css?family=Droid+Sans');
+    wp_enqueue_style( 'googleFonts-Droid-Sans', 'http://fonts.googleapis.com/css?family=Droid+Sans');
+    // wp_register_style('googleFonts-Allura', 'http://fonts.googleapis.com/css?family=Allura');
+    wp_enqueue_style( 'googleFonts-Allura', 'http://fonts.googleapis.com/css?family=Allura');
+    wp_enqueue_style( 'fontAwesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 }
-add_action('wp_print_styles', 'load_fonts');
+add_action('wp_enqueue_scripts', 'load_fonts');
 
 /**
  * Implement the Custom Header feature.
