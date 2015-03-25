@@ -1061,8 +1061,13 @@ article {
 	background-color: #fff;
 	box-shadow: 0 0 7px;
 }
-article div.entry-content {
+
+.entry-content {
 	text-align: justify;
+}
+
+.entry-content img {
+	width: 50%;
 }
 
 /*
