@@ -416,6 +416,7 @@ big {
 	font-size: 1em;
 	font-weight: normal;
 	margin: -1em 0 0 -5.5em;
+	display: none;
 }
 
 .entry-title {
